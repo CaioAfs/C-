@@ -33,7 +33,8 @@ Struct tipo_pessoa{
 ```
 Para declarar é bem simples:
 ```
-struct tipo_fruta maça; | struct tipo_pessoa pedro; |
+struct tipo_fruta maça; 
+struct tipo_pessoa pedro;
 ```
 
 ## Ponteiro
