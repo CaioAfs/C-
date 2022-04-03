@@ -20,10 +20,10 @@ Segundo o Wikipedia :
 Ok...Vamos tentar entender com exemplos.
 Pense em uma fruta e essa fruta possui cor e peso, ou uma pessoa que apenas precisamos da idade e tamanho. Ficaria assim:
 ```
-Struct tipo_fruta{  |	Struct tipo_pessoa{		|				
- char cor[10];		|	 int idade;				| =>      Nesse caso eu tenho um
- float peso;		|	 float tamanho;			| =>	  tipo de dado fruta e pessoa.
-};					|	};						|
+Struct tipo_fruta{   |	Struct tipo_pessoa{		 |				
+ char cor[10];		     |	 int idade;				       | =>      Nesse caso eu tenho um
+ float peso;		       |	 float tamanho;			    | =>	  tipo de dado fruta e pessoa.
+};					              |	};						              |
 ```
 Para declarar é bem simples:
 ```
